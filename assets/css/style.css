@@ -1,7 +1,7 @@
 @import"https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap";
 
 :root {
-    --primary-background-color: #e5e5e5;
+    --primary-background-color: #7dc1cf;
     --secondary-background-color: rgba(255, 255, 255, 0.40);
     --backround-image: radial-gradient(at 0% 0%, hsla(240, 100%, 97%, 1) 0, transparent 50%), radial-gradient(at 100% 0%, hsla(200, 80%, 70%, 1) 0, transparent 50%);
     --outline-color: rgba(30, 41, 59, 0.40);
@@ -13,7 +13,7 @@
 }
 
 .dark-theme {
-    --primary-background-color: #0f0e13;
+    --primary-background-color: #3b6679;
     --secondary-background-color: rgba(255, 255, 255, 0.05);
     --backround-image: radial-gradient(at 0% 0%, hsla(253, 16%, 7%, 1) 0, transparent 50%), radial-gradient(at 100% 0%, hsla(200, 80%, 30%, 1) 0, transparent 50%);
     --outline-color: rgba(229, 231, 235, 0.40);

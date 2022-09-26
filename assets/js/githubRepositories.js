@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', async function () {
       });
   
       el.innerHTML = `
-      <div data-id="${data.full_name || 'NOT_FOUND'}" onclick="window.open('https://github.com/${data.full_name || elevenvac}')" class="card rounded-xl h-full">
+      <div data-id="${data.full_name || 'NOT_FOUND'}" onclick="window.open('https://github.com/${data.full_name || lytwest}')" class="card rounded-xl h-full">
           <div class="p-3 flex space-x-2 items-center overflow-hidden">
               <p class="normalText opacity-90">${data.name || "No data"}</p>
               <p class="thinText sectionTopRightText rounded-xl p-2 opacity-80"><i class="fa-regular fa-star"></i> &nbsp; ${data.stargazers_count || "0"}</p>
@@ -34,11 +34,3 @@ window.addEventListener('DOMContentLoaded', async function () {
     });
   });
   
-  /*
-      <div data-id="${data.full_name || 'NOT_FOUND'}" onclick="window.open('https://github.com/${data.full_name || elevenvac}')" class="oal-comps-xl-card rounded-cxl mt-3">
-          <p class="section-regular-text-b oal-comps-xl-card-link">elevenvac/</a>${data.full_name || "No data"}</p>
-          <p class="section-regular-text opacity-80">${data.language || "Undefined"} <span class="ml-1 mr-1">•</span> ${data.stargazers_count || "0"}
-              Stars <span class="ml-1 mr-1">•</span> ${data.forks || "0"} Forks</p>
-          <p class="section-regular-text opacity-80">${data.description || "<i>No description or website provided.</i>"}</p>
-      </div>
-  */

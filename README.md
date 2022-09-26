@@ -1,12 +1,16 @@
-<p align="center">
-  <img width="100" src="https://raw.githubusercontent.com/elevenvac/elevenvac/master/Eleven_icon_higer_florence.png" alt="Eleven Icon">
-</p>
+![image](https://media.discordapp.net/attachments/864201025047887932/876570518822744084/westvalorantbannergri.png) 
 
-## Languages
-`HTML`, `CSS` & `JavaScript`
+## Description
+🌙 This is the source code of my personal site. You can pull it to yourself by forking.
+
+## Languages Used in the Page/Site;
+`HTML` & `CSS` and `JavaScript`
 
 ## Contributors
-Thanks for contributions: `john-smilga`
+Thanks for contributions: `elevenvac`
 
-## Discord Server
-<a href="https://discord.gg/uhwjhWryND"><img src="http://invidget.switchblade.xyz/uhwjhWryND"/></a>
+## For Installation;
+It can be opened with an index file, there is no installation.
+
+## Communication;
+🔭 Discord Server [Click](https://discord.gg/TqRWBdpy6w) ~ ⭐

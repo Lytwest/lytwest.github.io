@@ -16,7 +16,7 @@ lanyard.onopen = function () {
     JSON.stringify({
       op: 2,
       d: {
-        subscribe_to_id: "354343248698802187",
+        subscribe_to_id: "569252632108072984",
       },
     })
   );
@@ -132,10 +132,10 @@ function update_presence() {
       <a href="https://open.spotify.com/track/${api.d.spotify.track_id}" target="_blank">
       <div class="card rounded-xl h-full">
           <div class="p-3 flex space-x-2 items-center overflow-hidden">
-              <img src="/assets/img/spotify.png" alt="IMG" class="rounded-xl"
+              <img src="https://cdn.discordapp.com/attachments/864201025047887932/1023990690096615476/spotify-512.png" alt="IMG" class="rounded-xl"
                   width="50" height="50">
               <p class="normalText ml-3 opacity-90">Spotify<br><span class="smallText opacity-80">${song || "<i>No data</i>"}</span></p>
-              <p class="thinText sectionTopRightText rounded-xl p-2 opacity-80">left ${spotify_time || "0m 0s"}</p>
+              <p class="thinText sectionTopRightText rounded-xl p-2 opacity-80">Remaining: ${spotify_time || "0m 0s"}</p>
           </div>
       </div>
       </a>`;
@@ -165,7 +165,7 @@ function update_presence() {
 
   setInterval(function () {
     if (api.d.listening_to_spotify == false && api.d.activities.find(activity => activity.application_id == disneyPlusAppID) == undefined && api.d.activities.find(activity => activity.application_id == netflixAppID) == undefined && api.d.activities.find(activity => activity.application_id == vsCodeAppID) == undefined) {
-      activitiesStatus.innerHTML = `<i class="smallText opacity-80">There are currently no activity</i>`;
+      activitiesStatus.innerHTML = `<p class="smallText opacity-80">There is currently no activity to show here :></p>`;
     } else {
       activitiesStatus.innerHTML = ``;
       document.getElementById("activitiesStatus").style.display = "none";

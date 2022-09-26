@@ -1,5 +1,5 @@
-tippy('#headAvatar', {
-    content: '<p class="smallText opacity-80 ml-1 mr-1">Made by <b>AKP Government</b></p>',
+tippy('#aboutMeModalAvatarContainer', {
+    content: '<p class="smallText opacity-80 ml-1 mr-1">Justice <b>delayed is injustice.</b></p>',
     animation: 'scale',
     placement: 'bottom',
     theme: 'ws',

@@ -1,15 +1,15 @@
 {
-    "name": "Eleven – Full-stack web developer",
+    "name": "Lytwest",
     "lang": "en",
-     "theme_color": "#74b4d4",
-     "background_color": "#74b4d4",
+     "theme_color": "#111827",
+     "background_color": "#111827",
      "display": "fullscreen",
      "orientation": "portrait",
      "scope": "/",
      "start_url": "/",
     "icons": [
      {
-      "src": "https://raw.githubusercontent.com/elevenvac/elevenvac/master/Eleven_icon_higer_florence.png",
+      "src": "https://cdn.discordapp.com/attachments/864201025047887932/953085545729380392/Baslksz-1.png",
       "sizes": "512x512",
       "type": "image\/png",
       "density": "5.0"
